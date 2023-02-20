@@ -17,7 +17,10 @@ struct DetailView: View {
                 VStack(alignment: .leading) {
                     Text(title)
                         .bold()
+                        .font(.title)
+                        .padding(.bottom)
                     Text(desc)
+                        .font(.body)
                 }
                 Spacer()
             }
